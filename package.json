@@ -1,0 +1,27 @@
+{
+  "name": "testintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dialogflow": "^0.8.2",
+    "express": "^4.16.4",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "telegram-bot-client": "^2.1.1",
+    "telegram-node-bot": "^4.0.5",
+    "viber-bot": "^1.0.13",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
